@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Layout {
+  padding: 0;
+  min-height: 100vh;
+}
+
+.table-image {
+  height: 50px;
+  transition: 0.3s;
+  position: relative;
+}
+
+.table-image:hover {
+  transform: scale(4);
+  z-index: 1000;
+}
